@@ -23,6 +23,8 @@
   ## Usage
   Please follow the walk-through video below.
 
+  [Walking-through video for README application](https://drive.google.com/file/d/182-JynirH2tO-dPBYFoG6wExYLYCBMXe/view)
+
   ##  License
   This project is licensed under the Unlicensed.
 

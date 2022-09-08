@@ -42,13 +42,11 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license == "The Unlicensed") {
-    return "";
+    return "This project is licensed under " + license;
   } else return "This project is licensed under the " + license;
 }
 function renderLicenseHeader(license) {
-  if (license == "The Unlicensed") {
-    return "";
-  } else return "[![License: "+license+"]("+renderLicenseBadge(license)+")]("+renderLicenseLink(license)+")"; 
+  return "[![License: "+license+"]("+renderLicenseBadge(license)+")]("+renderLicenseLink(license)+")"; 
 }
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
